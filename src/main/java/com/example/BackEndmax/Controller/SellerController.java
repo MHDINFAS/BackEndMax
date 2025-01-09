@@ -1,15 +1,14 @@
 package com.example.BackEndmax.Controller;
+import com.example.BackEndmax.Model.Seller;
+import com.example.BackEndmax.Service.SellerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 public class SellerController {
     
 }
 
-package com.example.BackEndmax.Controller;
 
-import com.example.ElectroMart.Model.Seller;
-import com.example.ElectroMart.Service.SellerService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
